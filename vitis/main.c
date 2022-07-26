@@ -16,6 +16,10 @@
 #include "stopwatch.h"
 
 #define MODEL_FILE_PATH "baseline/resnet20v2_cifar_onnx_zcu104.tmodel"
+//#define MODEL_FILE_PATH "ultra_ram/resnet20v2_cifar_onnx_zcu104_uram.tmodel"
+//#define MODEL_FILE_PATH "ultra_ram_local_vars/resnet20v2_cifar_onnx_zcu104_uram.tmodel"
+//#define MODEL_FILE_PATH "ultra_ram_local_consts/resnet20v2_cifar_onnx_zcu104_uram.tmodel"
+//#define MODEL_FILE_PATH "ultra_ram_local_vars_and_consts/resnet20v2_cifar_onnx_zcu104_uram.tmodel"
 
 static size_t argmax(size_t size, const float *buffer) {
     if (!size)
