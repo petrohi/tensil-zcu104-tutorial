@@ -4,4 +4,4 @@
 
 ## Blog
 
-[Getting ResNet to 300 fps on ZCU104](https://k155la3.blog/2022/07/29/getting-resnet-to-300-fps-on-zcu104/)
+[Getting Tensil to run ResNet at 300 frames per second on ZCU104](https://k155la3.blog/2022/07/29/getting-tensil-to-run-resnet-at-300-fps-on-zcu104/)
